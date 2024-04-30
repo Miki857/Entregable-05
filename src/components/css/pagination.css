@@ -1,0 +1,25 @@
+.pagination__container{
+    width: 100%;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+
+    .solidBtn__container{
+        display: flex;
+    }
+
+    button{
+        width: 3rem;
+        aspect-ratio: 1;
+    }
+
+    select{
+        padding: 0.3rem;
+        border:none;
+        background-color: white;
+    }
+}
